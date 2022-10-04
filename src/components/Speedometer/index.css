@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.speedometer-container {
+  background-color: #07080c;
+  height: 100vh;
+  width: 100vh;
+  text-align: center;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-size: 34px;
+  padding-top: 20px;
+}
+
+.image {
+  width: 400px;
+  height: 200px;
+}
+.passage-1 {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+}
+.passage-2 {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+.accelerate-button {
+  color: white;
+  background-color: #0b69ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 15px;
+  outline: none;
+}
+.brake-button {
+  border-color: white;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
